@@ -18,3 +18,9 @@ Percona Server는 MySQL의 성능 및 안정성, 편의성을 극대화한 MySQL
 
 ### Quartz
  Terracotta 라는 회사에서 의해 개발된 Job Scheduling 라이브러리입니다. 완전히 자바로 개발되어 어느 자바 프로그램에서도 쉽게 통합해서 개발할 수 있습니다
+
+### Modbus TCP
+산업용 필드버스 분야에서 자주 사용되는 통신 프로토콜 입니다. TCP/IP 네트워크 상에서 상위장치와 하위장치간의 인터페이스를 위하여 고안된 통신방법
+
+### activeMQ
+JMS(Java Message Service) 클라이언트와 함께 자바로 작성된 오픈 소스 메시지 브로커
