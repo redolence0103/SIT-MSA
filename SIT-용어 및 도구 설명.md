@@ -1,4 +1,4 @@
-# SIT 사용 도구 설명
+# SIT 용어 및 도구 설명
 
 ### Equinox OSGi (Virgo 3.6.4)
 Equinox는 OSGi 연합의 서비스 플랫폼 R4 스펙의 프레임워크 부분에 대한 참조 구현체로 Eclipse의 런타임 플랫폼 환경을 제공.
