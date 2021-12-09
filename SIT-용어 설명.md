@@ -24,3 +24,15 @@ Percona Server는 MySQL의 성능 및 안정성, 편의성을 극대화한 MySQL
 
 ### activeMQ
 JMS(Java Message Service) 클라이언트와 함께 자바로 작성된 오픈 소스 메시지 브로커
+
+
+### zenon
+zenon은 제조 및 인프라 장비의 엔지니어링과 자동화 운영을 손쉽게 만들어주는 소프트웨어 플랫폼
+https://www.copadata.com/ko/product/zenon-software-platform/
+
+### PV O&M
+- PV : 태양광 발전(太陽光發電, photovoltaics)
+- O&M : 발전소를 운전하고 정비하는 업무 (Operation and Management)
+
+### ESS (Energy Storage System)
+에너지 저장은 장치 혹은 물리적 매체를 이용하여 에너지를 저장하는 것을 말합니다. 에너지 저장에 쓰이는 장치를 축압기라고 하는데, 이보다 더 넓은 범위의 시스템 전체를 ESS (에너지 저장 시스템) 라고 합니다.
