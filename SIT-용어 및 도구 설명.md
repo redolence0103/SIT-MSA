@@ -36,3 +36,7 @@ https://www.copadata.com/ko/product/zenon-software-platform/
 
 ### ESS (Energy Storage System)
 에너지 저장은 장치 혹은 물리적 매체를 이용하여 에너지를 저장하는 것을 말합니다. 에너지 저장에 쓰이는 장치를 축압기라고 하는데, 이보다 더 넓은 범위의 시스템 전체를 ESS (에너지 저장 시스템) 라고 합니다.
+
+### EMS/PMS
+- EMS(Energy Management system) 
+- PMS(Power Management System)
