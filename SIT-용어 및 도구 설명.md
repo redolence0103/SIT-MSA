@@ -40,3 +40,14 @@ https://www.copadata.com/ko/product/zenon-software-platform/
 ### EMS/PMS
 - EMS(Energy Management system) 
 - PMS(Power Management System)
+
+### ACB (Air Circuit Breaker)
+기중 차단기(ACB) 는 저압 회로의 전로 보호를 목적으로 배선용 차단기, 누전 차단기 등과 동일하게 공기중에서 전류를 차단하는 차단기입니다. 주로 대전류를 차단하기 위한 차단기로, 개폐 내구성이 뛰어나고 인출식에 의한 메인터넌스성이 좋은 등 배선용 차단기와 성능적 차이가 있습니다.
+
+### VCB (Vacuum Circuit Breaker)
+진공차단기(Vacuum Circuit Breaker;VCB)는 진공을 소호매질로 하는 VI(Vacuum Interrupter)를 적용한 차단기로서 전력의 송수전, 절체 및 정지 등을 계획적으로 수행하는 외에 전력 계통에 고장 발생시 신속히 자동 차단하는 책무를 가진 중요한 보호장치입니다
+
+### pcs (Power Conversion System)
+PCS는 ESS 시스템 내에서 전력을 입력받아 배터리(축전지)에 저장하거나 계통방출하기 위해 전기의 특성 (주파수, 전압, AC/DC)을 변환해주는 시스템입니다. 자세히 설명하자면 ESS(에너지저장장치)에 저장되는 전기는 직류이고 사용하는 전기는 교류입니다
+- 인버터(Inverter)는 DC를 AC로 변환하는 전력변환 장치
+- 컨버터 (Converter)는 AC를 DC로 변환하는 전력변환 장치
