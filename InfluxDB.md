@@ -233,6 +233,12 @@ atid@redolence:~$ curl -G 'http://localhost:8086/query?pretty=true' -u admin:wjd
 ```bash
 atid@redolence:~$ date --date='@1640188800'
 Wed 22 Dec 2021 04:00:00 PM UTC
+
+1640174400 
+1640178000 
+1640181600 
+1640185200 
+1640188800 
 ```
 
 
