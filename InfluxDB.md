@@ -202,7 +202,34 @@ $ curl -G 'http://localhost:8086/query?pretty=true' -u admin:wjdgid0103 --data-u
     ]
 }
 ```
-
+```bash
+atid@redolence:~$ curl -G 'http://localhost:8086/query?pretty=true' -u admin:wjdgid0103 --data-urlencode "db=statistics" --data-urlencode "q=SELECT * FROM \"AI028_1H\" WHERE time = 1640174400000000000"{
+    "results": [
+        {
+            "statement_id": 0,
+            "series": [
+                {
+                    "name": "AI028_1H",
+                    "columns": [
+                        "time",
+                        "PVEF",
+                        "SIRS",
+                        "TAE"
+                    ],
+                    "values": [
+                        [
+                            "2021-12-22T12:00:00Z",
+                            100.0528871744839,
+                            730.8009999999999,
+                            731.1875
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
+```
 
 
 ### InfluxDB VS RDB 비교
