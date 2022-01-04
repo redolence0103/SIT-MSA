@@ -446,6 +446,12 @@ time                   mean
   > select 100*"TAE"/"SIRS"  from "pvef" 
   
   ```
+  
+  ```sql
+  > select difference(max("value")) as "TAE" into statistics..AI028_1H from "AI028" where time >= '2021-12-20T00:00:00Z' and time <= '2021-12-23T23:59:00Z' and "endpoint" = 'TAE' and "cdevice" = 'VCB0001'  group by time(60m)
+  
+  > select mean("value")+0.001 as "SIRS" into statistics..AI028_1H from "AI028" where time >= '2021-12-20T00:00:00Z' and time <= '2021-12-23T23:59:00Z' and "endpoint" = 'SIRS' and "cdevice" = 'WTS0001'  group by time(60m)  
+  ```
 
   
 
