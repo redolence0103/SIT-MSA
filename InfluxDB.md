@@ -20,7 +20,8 @@ $ sudo apt install influxdb
 $ sudo systemctl unmask influxdb.service
 $ sudo systemctl start influxdb
 ```
-
+- TSM(Time Structured Merge tree)
+InfluxDB를 위한 전용 데이터 저장 방식을 말합니다. TSM은 기존 B+ 혹은 LSM 트리 구현보다 더 높은 압축 및 쓰기/읽기 처리를 할 수 있습니다. 자세한 내용은 Storage Engine를 참고하세요.
 
 
 ### linux 날자 표시 변경
