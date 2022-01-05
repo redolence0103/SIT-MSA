@@ -1,4 +1,4 @@
-## influxData Down sampling
+## influxData Down sampling (https://runebook.dev/ko/docs/influxdata/influxdb/v1.3/guides/downsampling_and_retention/index)
 오랜 시간 동안 많은 양의 데이터로 작업하면 스토리지 문제가 발생할 수 있습니다. 자연스러운 해결책은 데이터를 다운 샘플링하는 것입니다. 고정밀 미가공 데이터를 제한된 시간 동안 유지하고 더 낮은 정밀도로 요약 된 데이터를 훨씬 더 오래 또는 영원히 저장하십시오.
 InfluxDB는 데이터 다운 샘플링 및 오래된 데이터 만료 프로세스를 자동화하는 CQ (Continuous Queries) 및 RP (Retention Policies)의 두 가지 기능을 제공합니다.
 
