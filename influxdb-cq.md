@@ -9,6 +9,9 @@ InfluxDB는 데이터 다운 샘플링 및 오래된 데이터 만료 프로세�
 
 ### Sample Data
 ```text
+> show retention policies
+> alter retention policy "autogen" on "test" duration 2h shard duration 1h
+(duration 값은 shardGroupDuration 보다 커야한다.)
 ```
 
 ### Goal
