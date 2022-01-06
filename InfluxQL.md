@@ -501,3 +501,19 @@ wget -qO- https://repos.influxdata.com/influxdb.key | sudo apt-key add -
    
    data_format = "influx"
 ```
+                                                                                                     
+## MVP data 전처리
+```bash
+cat -v sample-pv.txt |more
+influx -import -path=sample-pv.txt -precision=s -database=atid1024 -username=admin -password=wjdgid0103
+                                                                                                     
+select 0.001+sum("value")/60 as "SIRS" into "PR" from "AI028" where time >= '2021-12-20T00:00:00Z' and time <= '2021-12-23T23:59:00Z' and "endpoint" = 'SIRS'  group by time(60m)
+select difference(max("value")) as "TAE" into "PR" from "AI028" where time >= '2021-12-20T00:00:00Z' and time <= '2021-12-23T23:59:00Z' and "endpoint" = 'TAE'  group by time(60m)
+select 100*((TAE/498.96)/((SIRS/1000))) as PR into "PR" from "PR" group by 
+                                                                                                                   
+# Generator(file에서 분단위로 line을 읽어서 Parser 서비스에 전송)
+
+  CREATE CONTINUOUS QUERY "PR_1H" ON "atid1024" BEGIN  SELECT difference(max("value")) as "TAE" into "a_year"."PR" from "AI028" GROUP BY time(60m) END
+  CREATE CONTINUOUS QUERY "PR_SIRS_1H" ON "atid1024" BEGIN select 0.001+sum("value")/60 as "SIRS" into "a_year"."PR" from "AI028" GROUP BY time(60m) END
+  CREATE CONTINUOUS QUERY "PR_PR_1H" ON "atid1024" BEGIN select 100*((TAE/498.96)/((SIRS/1000))) as PR into a_year"."PR" from "PR" group by * END                                                                                                                  
+```
