@@ -1,4 +1,5 @@
 ## AWS serviceAccount 생성
+<img width="80%" src="https://user-images.githubusercontent.com/90162116/197396650-7cd0c6bb-4060-4dba-88cd-b9ee91dd63b9.PNG"/>
 ### iam-policy.json
 ```json
 {
