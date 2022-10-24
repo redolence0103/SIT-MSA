@@ -1,4 +1,6 @@
 ## 서비스 구성도
+- 본 설정은 AWS admin 권한을 필요로 하고 K8S 클러스터에 접근 가능하여야 합니다.
+- awscli, eksctl 패키지가 실행 가능 하여야 합니다.
 ![sit-process](https://user-images.githubusercontent.com/90162116/197396963-a9675760-0882-448f-884f-bb4952f30a2b.PNG)
 ## AWS serviceAccount 생성
 ![sit-irsa](https://user-images.githubusercontent.com/90162116/197396650-7cd0c6bb-4060-4dba-88cd-b9ee91dd63b9.PNG)
