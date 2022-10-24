@@ -1,6 +1,9 @@
+## 서비스 구성도
 ![sit-process](https://user-images.githubusercontent.com/90162116/197396963-a9675760-0882-448f-884f-bb4952f30a2b.PNG)
 ## AWS serviceAccount 생성
 ![sit-irsa](https://user-images.githubusercontent.com/90162116/197396650-7cd0c6bb-4060-4dba-88cd-b9ee91dd63b9.PNG)
+### IAM Identity provider 생성
+eksctl utils associate-iam-oidc-provider --region=ap-northeast-2 --cluster=k8s-sit-dev --approve
 ### iam-policy.json
 ```json
 {
