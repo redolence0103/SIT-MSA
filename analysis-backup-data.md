@@ -44,8 +44,8 @@ aws iam create-policy --policy-name pod-copy-s3 --policy-document file://iam-pol
 eksctl create iamserviceaccount \
   --name pod-s3 \
   --namespace analysis \
-  --cluster mrn-cluster \
-  --attach-policy-arn arn:aws:iam::855234652597:policy/pod-copy-s3 \
+  --cluster DEV_DP_EKS \
+  --attach-policy-arn arn:aws:iam::751537094571:policy/pod-copy-s3 \
   --approve \
 ```
 ```text
