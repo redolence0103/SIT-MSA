@@ -21,7 +21,7 @@ aws s3 ls influxdb-prd-backup-kor/ # s3 resource 확인
             "Action": [
                 "s3:ListBucket"
             ],
-            "Resource": "arn:aws:s3:::atid-tdb"
+            "Resource": "arn:aws:s3:::influxdb-prd-backup-kor"
         },
         {
             "Sid": "List",
@@ -30,7 +30,7 @@ aws s3 ls influxdb-prd-backup-kor/ # s3 resource 확인
                 "s3:GetObject",
                 "s3:GetObjectVersion"
             ],
-            "Resource": "arn:aws:s3:::atid-tdb/*"
+            "Resource": "arn:aws:s3:::influxdb-prd-backup-kor/*"
         }
     ]
 }
