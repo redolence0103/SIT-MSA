@@ -6,7 +6,11 @@
 ## AWS serviceAccount 생성
 ![sit-irsa](https://user-images.githubusercontent.com/90162116/197396650-7cd0c6bb-4060-4dba-88cd-b9ee91dd63b9.PNG)
 ### IAM Identity provider 생성
+```bash
+eksctl get cluster --name DEV_DP_EKS # 클러스터 확인
 eksctl utils associate-iam-oidc-provider --region=ap-northeast-2 --cluster=k8s-sit-dev --approve
+aws s3 ls influxdb-prd-backup-kor/ # s3 resource 확인
+```
 ### iam-policy.json
 ```json
 {
