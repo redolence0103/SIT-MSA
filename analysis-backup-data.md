@@ -8,7 +8,7 @@
 ### IAM Identity provider 생성
 ```bash
 eksctl get cluster --name DEV_DP_EKS # 클러스터 확인
-eksctl utils associate-iam-oidc-provider --region=ap-northeast-2 --cluster=k8s-sit-dev --approve
+eksctl utils associate-iam-oidc-provider --region=ap-northeast-2 --cluster=DEV_DP_EKS --approve
 aws s3 ls influxdb-prd-backup-kor/ # s3 resource 확인
 ```
 ### iam-policy.json
